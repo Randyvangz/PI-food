@@ -29,7 +29,7 @@ const getDBInfo = async () => {
             model: DietType,
             attributes: ["name"],
             through: {
-                attributes: []
+                attributes:  []
             }
         }
     })
